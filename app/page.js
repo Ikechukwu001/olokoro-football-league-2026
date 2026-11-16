@@ -773,16 +773,32 @@ export default function HomePage() {
         </aside>
       </div>
 
-      {/* FOOTER */}
-      <footer className="border-t border-[#252d38] bg-[#111720]">
-        <div className="mx-auto flex max-w-[1500px] flex-col justify-between gap-3 px-4 py-6 text-xs text-slate-500 sm:flex-row lg:px-6">
-          <p>
-            <strong className="text-slate-300">OLOKORO FOOTBALL LEAGUE 2026</strong>
-            {" "}· The village. The pride. The game.
-          </p>
-          <p>Made for the Olokoro community.</p>
-        </div>
-      </footer>
+ 
+{/* FOOTER */}
+<footer className="border-t border-[#252d38] bg-[#111720]">
+  <div className="mx-auto flex max-w-[1500px] flex-col justify-between gap-3 px-4 py-6 text-xs text-slate-500 sm:flex-row lg:px-6">
+    <p>
+      <strong className="text-slate-300">
+        OLOKORO FOOTBALL LEAGUE 2026
+      </strong>
+      {" "}· The village. The pride. The game.
+    </p>
+
+    <p>
+      Made for the Olokoro community.
+      {" "}· Developed by{" "}
+      <a
+        href="https://ikechukwu-portfolio.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-semibold text-slate-300 transition-colors hover:text-teal-400"
+      >
+        Ikechukwu
+      </a>
+    </p>
+  </div>
+</footer>
+
     </main>
   );
 }
